@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Form</title>
+</head>
+<body>
+<h2>Fill out the form</h2>
+<form action="/homePage/process-person-data" method="POST" th:object="${personData}">
+    <p>Full Name:<input type="text" th:field="${personData.fullName}"/></p>
+    <p>Age:<input type="number" th:field="${personData.age}"/></p>
+    <p>Are You Employed:<input type="checkbox" th:field="${personData.employed}" th:value="true"/></p>
+    <p>Choose Gender</p>
+    <p>Male:<input type="radio" th:field="${personData.gender}" th:value="Male"}/><br/>
+        Female:<input type="radio" th:field="${personData.gender}" th:value="Female"}/><br/>
+    </p>
+    <p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
+</form>
+</body>
+</html>

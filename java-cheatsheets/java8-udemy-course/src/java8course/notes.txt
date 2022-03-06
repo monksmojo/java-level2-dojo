@@ -1,0 +1,74 @@
+// why java 8
+Most Popular and widely accepted language in the world
+
+has new features like
+.lambdas
+.streams
+.Optional and etc
+
+java8 simplify the concurrency operations.
+
+creating immutable objects
+
+first class citizen -creating a function and add
+it to the variable and pass it around as
+function variable
+******************************************************************
+imperative way of programming
+embraces object mutability
+we write step by step instruction to achieve the objective
+
+imperative style is used with classic object oriented programming.
+********************************************************************
+
+*********************************************************************
+declarative style of programming..
+
+focuses on what is the result you want.
+embraces object
+use mainly library functtions to achieve the objective
+
+functional programming use the concept of declarative
+programming
+***********************************************************************
+
+*************************************************************************
+what is Lambda Expression
+lambda are the functions without the function name
+lambda function in java are also called as the anonymous function
+lambda are not tied to any class.
+lambda function can be assigned to the variable and passed around
+syntax
+// lambda function syntax
+()->{
+
+}
+// usage of lambda
+-> implementation of functional interface
+-> abstract method are categories as
+
+@FunctionalInterface
+public interface Comparator<T>{
+int compare(To1,To2);
+}
+
+@FunctionalInterface
+public interface Runnable{
+public abstract void run();
+}
+
+two types of functionInterface declared before that are
+*************************************************************************
+
+**************************************************************************
+A functional interface is a interface that has exactly one abstract method
+A functional interface called-->
+@functionalInterface
+this part is introduced as of jdk 1.8
+consumer-Bi consumer
+function-Bi function ,unary operator, binary operator
+predicate-Bi predicate
+predicate
+supplier
+**************************************************************************
+

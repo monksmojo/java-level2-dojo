@@ -1,0 +1,170 @@
+web services
+a service deliver over a web using http and https://
+web--->business logic--->data layer(database)
+so web service business logic and data layer
+
+provide application to application interaction
+communication over a network
+not platform dependent
+
+application------>Request------>Web Service
+webService------->Response------->application
+
+request and response should be universal or generic to the application using web service
+
+json and xml are two request and response platform supported by most of the platform
+
+
+
+
+service provider (web service are the provider that host the service)
+
+service consumer (who is consuming the service)
+
+service definition (
+a web service contain
+request/response format xml or json
+request structure
+response structure
+endpoints or uri to hit
+)
+
+service transport
+MQ (over a que exchange of request and response take place)
+http (address map)
+
+type/group of web services
+
+soap- restriction on format which we use in xml format for request and response
+specific format
+
+(soap envelope
+(soap header)
+(soap body)
+)
+
+soap contains wsdl
+web service definition language
+it contains
+
+request/response format xml or json
+request structure
+response structure
+endpoints or uri to hit
+
+
+
+REST-representational state transfer
+best use of http
+hypertext transfer protocol
+
+browser------>Request------>server
+server------->Response------->browser
+
+http is the format in which response nad request are send
+
+Rest contain
+uri resource you expose  to the outside application
+and use http format(get,put,post)You
+sudo update-alternatives --config java
+
+rest is built on http
+
+spring
+
+have there own role
+
+core problem it solve is testability and dependency injection and inversion of control take control of all the beans and defining dependencies
+
+solves dependency injection and loosley coupled injection
+
+solves duplication plumbing question and good integration with other framework
+
+spring mvc
+decoupled way of developing web application
+there is view resolver
+and separation of concern
+and restful service
+behind spring boot u are using spring service
+
+
+spring boot
+spring use auto configuration creates data source
+Other approaches  before jpa(java persistence api)
+
+Before jpa the jdbc and spring jdbc focuses
+
+Differences between  jdbc, spring jdbc, and myBatis
+
+Jdbc------ java database connectivity
+
+we used to query the database and result generated from the database is stored in result set and the result set is mapped to pojo manually
+
+Jdbc use statement, prepared statement and resultset
+
+Spring jdbc---- spring jdbc is just the extension of jdbc wich remove the use of statement prepared statement and resultset
+But we still have to gain knowledge of database to query it
+
+Simple template on top of jdbc and map query result to the object using a mapper
+
+
+My Batis----- on the other hand myBatis is the Orm framework ie object relational mapping provide a better way to map pojo to the directly to the query
+
+jpa(java persistence api)
+It directly map pojo(plain old java object) to table directly of database
+And u use criteria api jpql and entity manager to query the db
+
+Sql vs jpql
+Jpql use instance name and class name instead of table name and columns
+
+Jpa defines annotation and is the interface and hibernate manages the impl
+
+Hibernate is one of the most  popular ORM frameworks that implements the jpa
+
+Toplink is also the ORM which helps in the implementation of the jpa
+
+Jpa defines and standardize the specification
+
+Like---
+How you define entities
+How do you map attributes
+How do you map relationships between entities
+
+
+// @Repository interacts with the database
+// @Transactional Ie the whole job in one go or will be rolled back
+// transaction also required when we do changes to database
+// DAO- data access object class helps us to access objects from the database
+
+//when an object is saved with persistence method it is traced by the
+// persistence context
+@PersistenceContext
+private EntityManager entityManager;
+
+public Long insertUser(User user){
+   entityManager.persist(user);
+   return user.getUserId();
+}
+
+
+ Some of the questions related to the H2 database
+Q-where is the database and tables created?
+Q-what schema is used to create tables?
+Q-Can I see data in the database?
+
+Answer to Above Questions
+The database is created using in-memory database Using h2
+Dependency we added for that in build.gradle is
+
+implementation('org.springframework.boot:spring-boot-starter-jdbc')
+runtimeOnly('com.h2database:h2')
+
+
+The database and tables are created on the basis of the entities we have defined.
+
+We can see the data in the database by going to the following url
+
+http://localhost:8080/h2-console
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.data.jpa.repositories.bootstrap-mode=default

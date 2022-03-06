@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Add New Employee</title>
+</head>
+<body>
+<nav th:replace="layout :: nav-bar"></nav>
+<div class="container text-warning bg-dark my-2">
+    <form action="/employee/save" method="post" th:object="${employee}">
+        <div class="form-group">
+            <label class="font-weight-bold">Employee First Name:</label>
+            <input class="form-control" type="text" name="firstName" th:field="${employee.firstName}">
+        </div>
+        <div class="form-group ">
+            <label class="font-weight-bold">Employee Last Name:</label>
+            <input class="form-control" type="text" name="lastName" th:field="${employee.lastName}">
+        </div>
+        <div class="form-group">
+            <label class="font-weight-bold">Employee email:</label>
+            <input class="form-control" type="text" name="email" th:field="${employee.email}">
+        </div>
+        <button class="btn btn-warning my-2" type="submit">Add Employee</button>
+    </form>
+</div>
+<a href="https://www.youtube.com/watch?v=VEFQ2DC_6LI">max o didly</a>
+</body>
+</html>

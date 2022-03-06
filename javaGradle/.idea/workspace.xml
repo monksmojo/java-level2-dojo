@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94690572-4d44-4b16-86e6-bf59e974cddf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaGradle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaGradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaGradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YISTeTG7KzbOAtkHwQGFGpnAGB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/javaCode1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ishop/i-shop/build.gradle" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Get-Date/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="JavaGradle.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SaleEvent" />
+      <module name="JavaGradle.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaGradle [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaGradle [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Gradle.JavaGradle [jar]" />
+        <item itemvalue="Application.SaleEvent" />
+        <item itemvalue="Gradle.JavaGradle [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94690572-4d44-4b16-86e6-bf59e974cddf" name="Default Changelist" comment="" />
+      <created>1582628624788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582628624788</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="203" width="524" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582656949183">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="444" y="203" width="524" height="387" key="#com.intellij.fileTypes.FileTypeChooser/57.27.1309.741@57.27.1309.741" timestamp="1582656949183" />
+    <state x="256" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582785570455">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="256" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/57.27.1309.741@57.27.1309.741" timestamp="1582785570455" />
+    <state x="482" y="259" width="458" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582785811420">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="482" y="259" width="458" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/57.27.1309.741@57.27.1309.741" timestamp="1582785811420" />
+    <state x="482" y="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582785572953">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="482" y="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/57.27.1309.741@57.27.1309.741" timestamp="1582785572953" />
+    <state x="456" y="146" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586504450956">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="456" y="146" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.692@0.27.1366.692" timestamp="1586504450956" />
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1582801831293" />
+    <state width="1267" height="177" key="GridCell.Tab.0.bottom" timestamp="1582718838098">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1267" height="177" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582718838098" />
+    <state width="1267" height="177" key="GridCell.Tab.0.center" timestamp="1582718838098">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1267" height="177" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582718838098" />
+    <state width="1267" height="177" key="GridCell.Tab.0.left" timestamp="1582718838098">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1267" height="177" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582718838098" />
+    <state width="1267" height="177" key="GridCell.Tab.0.right" timestamp="1582718838098">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1267" height="177" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582718838098" />
+    <state x="194" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1582697403138">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="194" y="27" width="1024" height="741" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1582697403138" />
+    <state x="520" y="177" width="373" height="438" key="chooseDestDirectoryDialog" timestamp="1582700417719">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="520" y="177" width="373" height="438" key="chooseDestDirectoryDialog/57.27.1309.741@57.27.1309.741" timestamp="1582700417719" />
+    <state x="363" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586504216966">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="363" y="211" key="com.intellij.ide.util.TipDialog/0.27.1366.692@0.27.1366.692" timestamp="1586504216966" />
+    <state x="405" y="224" key="com.intellij.ide.util.TipDialog/57.27.1309.741@57.27.1309.741" timestamp="1582825116314" />
+    <state x="128" y="27" width="1157" height="741" key="new project wizard" timestamp="1582656673261">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="128" y="27" width="1157" height="741" key="new project wizard/57.27.1309.741@57.27.1309.741" timestamp="1582656673261" />
+    <state x="375" y="175" key="run.anything.popup" timestamp="1582698802850">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="375" y="175" key="run.anything.popup/57.27.1309.741@57.27.1309.741" timestamp="1582698802850" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.5.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	developmentOnly
+	runtimeClasspath {
+		extendsFrom developmentOnly
+	}
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+	implementation 'org.springframework.data:spring-data-rest-hal-browser'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+
+//	dependency to show data in xml format
+	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
+//	dependency for swagger2
+	compile group: 'org.springdoc', name: 'springdoc-openapi-core', version: '1.1.47'
+//	dependency for swagger-ui
+	compile group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.1.47'
+	compile group: 'org.springdoc', name: 'springdoc-openapi-webflux-ui', version: '1.1.47'
+
+//	compile "io.springfox:springfox-swagger2:3.0.0-SNAPSHOT"
+//	compile "io.springfox:springfox-spring-webflux:3.0.0-SNAPSHOT"
+//	compile "io.springfox:springfox-swagger-ui:3.0.0-SNAPSHOT"
+//	compile "org.springdoc:springdoc-openapi-ui:1.2.21"
+}
+
+test {
+	useJUnitPlatform()
+}

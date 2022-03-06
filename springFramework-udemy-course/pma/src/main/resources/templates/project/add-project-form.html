@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Add New Project</title>
+</head>
+
+<body>
+    <nav th:replace="layout :: nav-bar"></nav>
+    <div class="container text-warning bg-dark my-2">
+        <form action="/project/save" method="post" th:object="${project}">
+            <input class="form-control-md d-block m-3" type="text" th:field="${project.name}" placeholder="enter the name of the project">
+            <select class="form-control-md d-block m-3" th:field="${project.stage}">
+                <option th:value="NotStarted">Not Started</option>
+                <option th:value="InProgress">In Progress</option>
+                <option th:value="Completed">Completed</option>
+            </select>
+            <textarea class="form-control-md d-block m-3" th:field="${project.description}" type="text" placeholder="Description of project" ></textarea>
+            <button class="btn btn-warning my-2" type="submit">Create Project</button>
+        </form>
+    </div>
+</body>
+
+</html>

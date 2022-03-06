@@ -1,0 +1,19 @@
+package com.in28minutes.junitmockito.serviceTest;
+
+
+import com.in28minutes.junitmockito.service.SomeServiceImpl;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@SpringBootTest
+public class SomeServiceTest {
+    @Test
+    public void testingCalculateSumForNormalInput() {
+        SomeServiceImpl someService = new SomeServiceImpl();
+        int actualResult = someService.calculateSum(new int[]{1, 2, 3});
+        int expectedResult = 6;
+        assertEquals(expectedResult, actualResult);
+    }
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Person process result</title>
+</head>
+<body>
+    <h3>person data processed</h3>
+    <p>Name--><span th:text="${person.fullName}"></span></p>
+    <p>Are You employed---><span th:text="${person.employed}"></span></p>
+    <p>age---><span th:text="${person.age}"></span></p>
+    <p>gender---><span th:text="${person.gender}"></span></p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+{"_id":4047,"bookName":"software-managment","authorName":"tree house","type":"soft cover","numberOfPages":540,"price":650.5,"_class":"com.javaTechie.springBoot.mongoDBcrud.entity.Book"}
+{"_id":4043,"bookName":"java-fundamentals","authorName":"oracle","type":"hard cover","numberOfPages":654,"price":500.5,"_class":"com.javaTechie.springBoot.mongoDBcrud.entity.Book"}
